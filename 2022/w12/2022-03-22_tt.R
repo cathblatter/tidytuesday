@@ -217,11 +217,11 @@ res <-
                 on_top = TRUE) +
   plot_layout(guides = "collect") +
   plot_annotation(title = NULL,
-                  caption = "@cathblatt | #Tidytuesday | 2022-03-22")
+                  caption = "@cathblatter | #Tidytuesday | 2022-03-22")
 
 res
 
-# ggsave(filename = paste0("2022/2022-03-22/", lubridate::today(), "-tt-names_oldenburg.png"),
+# ggsave(filename = paste0("2022/w12/", lubridate::today(), "-tt-names_derain.png"),
 #        device = "png",
 #        width =  12,
 #        height = 8)
